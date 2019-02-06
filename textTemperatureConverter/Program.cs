@@ -30,9 +30,8 @@ namespace textTemperatureConverter
             optSel = Convert.ToByte(Console.ReadLine());
 
 
-            //this currently does not work
             //error handling
-            /*while (optSel != 1 || optSel != 2)
+            while (optSel != 1 || optSel != 2)
             {
                 Console.WriteLine("Invalid selection, please select only 1 or 2: ");
                 optSel = Convert.ToByte(Console.ReadLine());
@@ -40,7 +39,7 @@ namespace textTemperatureConverter
                 if (optSel == 1 || optSel == 2)
                     break;
             }
-            */
+            
             //display the selected option
             Console.WriteLine($"Your Selection is {optSel}");
 
